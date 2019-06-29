@@ -330,7 +330,7 @@ tbody.collapse.in{display:table-row-group}
   z-index: 1;
 }
 .cardA{
-  border-bottom: 1px solid #ddd;
+  /*border-bottom: 1px solid #ddd;*/
   background-size: cover;
   background-color: #fff;
   color: #000000;
@@ -339,7 +339,7 @@ tbody.collapse.in{display:table-row-group}
   font-weight: 100;
 }
 .cardB{
-  border-bottom: 1px solid #ddd;
+  /*border-bottom: 1px solid #ddd;*/
   background-size: cover;
   background-image: linear-gradient(#808080,#C0C0C0);
   color: #000000;
@@ -357,7 +357,7 @@ tbody.collapse.in{display:table-row-group}
   /*font-family: "EncodeSansCompressed-300-Light";*/
 }
 .cardD{
-  border-bottom: 1px solid #ddd;
+  /*border-bottom: 1px solid #ddd;*/
   background-size: cover;
   background-image: linear-gradient(#505050,#323334);
   /*background-color: #323334;*/
