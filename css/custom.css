@@ -412,6 +412,7 @@ tbody.collapse.in{display:table-row-group}
 }
 .principles {
   background-image: url('../images/Abstract_Building_1280x855-01.jpg');
+  background-position: center;
 }
 .mystory {
   background-image: url('../images/Debris_Plane_Destroyed_Wreck_1280x670-01-min.jpg');
