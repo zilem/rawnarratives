@@ -17,7 +17,8 @@
 }
 
 .buttonML_W, .buttonML_W:hover, .buttonML_W:focus,
-.buttonML_B, .buttonML_B:hover, .buttonML_B:focus {
+.buttonML_B, .buttonML_B:hover, .buttonML_B:focus,
+.button1ML_B, .button1ML_B:hover, .button1ML_B:focus  {
   height: 38px;
   width: 120px;
   padding: 0px 15px 0px;
@@ -30,7 +31,8 @@
   border-bottom: 1px solid #c5000b;
   color:#fff;
 }
-.buttonML_B, .buttonML_B:hover, .buttonML_B:focus {
+.buttonML_B, .buttonML_B:hover, .buttonML_B:focus,
+.button1ML_B, .button1ML_B:hover, .button1ML_B:focus  {
   border-bottom: 1px solid #c5000b;
   color:#000000;
 }
