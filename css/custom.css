@@ -1,6 +1,7 @@
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.button, .button:hover, .button:focus {
+.button, .button:hover, .button:focus,
+.button1, .button1:hover, .button1:focus {
   height: 38px;
   padding: 0 20px;
   /*background: #FF9E1A;
@@ -162,14 +163,14 @@
   border: 3px solid #FF9E1A;
   border-radius: 100px;
   /*border-color: #FF9E1A;
-  background-color: #FF9E1A;*/
+  background-color: #FF9E1A;
   color: #fff;
   padding: 5px 20px 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 24px;
-}
+}*/
 
 #menu {
   position: fixed;
