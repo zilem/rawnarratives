@@ -85,7 +85,10 @@
 }
 
 #module button1.collapsed:after  {
-  content: 'M O R E';
+  content: 'Go Back';
+  font-style: italic;
+  font-size: 16px;
+  color:#c5000b;
 }
 
 #module button1:not(.collapsed):after {
