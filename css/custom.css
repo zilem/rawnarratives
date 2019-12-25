@@ -514,7 +514,7 @@ tbody.collapse.in{display:table-row-group}
 /* Bigger than 750 */
 @media (min-width: 750px) {
   .section {
-    padding: 5rem 0 15rem;
+    padding: 14rem 0 15rem;
   }
   .section-description, {
     max-width: 50%;
