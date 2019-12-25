@@ -40,6 +40,10 @@
   margin: 0 auto;
   border-bottom: 2px solid #FFFFFF;
   box-sizing: border-box; }
+.namecontainer {
+  position: relative;
+  max-width: 100px;
+}
 
 .column,
 .columns {
