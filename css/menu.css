@@ -79,7 +79,8 @@ body {
   width: 50px;
   height: 50px;
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Helvetica, sans-serif;
+  /*font-family: "Times New Roman", Times, serif;*/
   letter-spacing: -1px;
   color: #FFF;
   font-size: 18px;
@@ -100,7 +101,8 @@ body {
   transition: transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99);
   transition: transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99), -webkit-transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99);
   transition-delay: 0.50s;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Helvetica, sans-serif;
+  /*font-family: "Times New Roman", Times, serif;*/
   font-size: 18px;
 }
 .window .header .icon.icon-bag {

@@ -186,7 +186,8 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Helvetica, sans-serif;
+  /*font-family: "Times New Roman", Times, serif;*/
   color: #222;
   background-color: #313131;
   /*background-color: $bg-color; color: #313131;*/
@@ -197,12 +198,14 @@ body {
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3 {
-  font-family: operetta-8, "Times New Roman", Times, serif; /*'King'; 'Campton-Thin';*/
+  font-family: Helvetica, sans-serif;
+  /*font-family: operetta-8, "Times New Roman", Times, serif; /*'King'; 'Campton-Thin';*/
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 200; }
 h4, h5, h6 {
-  font-family: "Times New Roman", Times, serif; /*'King'; 'Campton-ExtraLight';*/
+  font-family: Helvetica, sans-serif;
+  /*font-family: "Times New Roman", Times, serif; /*'King'; 'Campton-ExtraLight';*/
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 300; }
@@ -213,7 +216,8 @@ h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
 h5 { font-size: 2.0rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 p {
-  font-family: "Times New Roman", Times, serif;
+  font-family: Helvetica, sans-serif;
+  /*font-family: "Times New Roman", Times, serif;*/
   font-size: 1.8rem;
   line-height: 1.4;
   margin-top: 0; }
@@ -262,7 +266,8 @@ input[type="button"] {
   background: #FF9E1A;*/
   border-radius: 0px;
   border: 0px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Helvetica, sans-serif;
+  /*font-family: "Times New Roman", Times, serif;*/
   font-size: 12px;
   border-bottom: 1px solid #c5000b;
   color:#000000;
@@ -356,7 +361,8 @@ label,
 legend {
   display: block;
 
-  font-family: "Times New Roman", Times, serif;
+  font-family: Helvetica, sans-serif;
+  /*font-family: "Times New Roman", Times, serif;*/
   font-size: 1.5rem;
   line-height: 1.6;
 /*font-weight: 600;*/ }
