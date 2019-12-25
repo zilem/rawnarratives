@@ -68,7 +68,8 @@
   .minicontainer {
     width: 85%; }
   .section {
-    margin: -10rem 0 0; }
+    margin: -10rem 0 0;
+    padding: 14rem 0 15rem;}
   .column,
   .columns {
     margin-left: 4%; }
@@ -135,7 +136,8 @@
   .minicontainer {
     width: 50%; }
   .section {
-    margin: 0rem 0 0rem; }
+    margin: 0rem 0 0rem;
+    padding: 20rem 0 19rem;}
   .column,
   .columns {
     margin-left: 4%; }
