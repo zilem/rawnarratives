@@ -42,7 +42,8 @@
   box-sizing: border-box; }
 .namecontainer {
   position: relative;
-  max-width: 100px;
+  margin: 0 auto;
+  max-width: 150px;
 }
 
 .column,
