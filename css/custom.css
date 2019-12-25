@@ -258,11 +258,9 @@ form .engage:hover {
 }
 .leftAligned{
   text-align: left;
-  max-width: 70%;
 }
 .rightAligned{
   text-align: right;
-  max-width: 70%;
 }
 .firstpara, .para {
   padding: 0rem 0 0rem;
