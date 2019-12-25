@@ -136,6 +136,7 @@
   .minicontainer {
     width: 50%; }
   .section {
+    padding: 20rem 0 19rem;
     margin: 0rem 0 0rem; }
   .column,
   .columns {
