@@ -505,14 +505,14 @@ tbody.collapse.in{display:table-row-group}
 
 
 /* Bigger than 550 */
-@media (min-width: 350px) {
+/*@media (min-width: 550px) {
   .section {
     padding: 12rem 0 15rem;
   }
 }
 
 /* Bigger than 750 */
-@media (min-width: 650px) {
+@media (min-width: 750px) {
   .section {
     padding: 14rem 0 15rem;
   }
