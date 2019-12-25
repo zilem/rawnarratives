@@ -135,7 +135,7 @@
   .minicontainer {
     width: 50%; }
   .section {
-    margin: 0rem 0 10rem; }
+    margin: 0rem 0 0rem; }
   .column,
   .columns {
     margin-left: 4%; }
@@ -277,15 +277,15 @@ h0, h7, h8 {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 600; }
 h1, h2, h3 {
-  font-family: "Helvetica", Helvetica, sans-serif;
-  font-weight: 600;
-  /*font-family: operetta-8, "Times New Roman", Times, serif;
-  font-weight: 200;*/
+  /*font-family: "Helvetica", Helvetica, sans-serif;
+  font-weight: 600*/
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 200;
   margin-top: 0;
   margin-bottom: 2rem; }
 h4, h5, h6 {
-  font-family: "Helvetica", Helvetica, sans-serif;
-  /*ont-family: "Times New Roman", Times, serif; /*'King'; 'Campton-ExtraLight';*/
+  /*font-family: "Helvetica", Helvetica, sans-serif;*/
+  font-family: "Times New Roman", Times, serif; /*'King'; 'Campton-ExtraLight';*/
   font-weight: 300;
   margin-top: 0;
   margin-bottom: 2rem; }
@@ -299,8 +299,8 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 h7 { font-size: 4.0rem; line-height: 0.7;  letter-spacing: -1px;}
 h8 { font-size: 4.0rem; line-height: 0.8;  letter-spacing: -1px;}
 p {
-  font-family: "Helvetica", Helvetica, sans-serif;
-  /*font-family: "Times New Roman", Times, serif;*/
+  /*font-family: "Helvetica", Helvetica, sans-serif;*/
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.8rem;
   line-height: 1.4;
   margin-top: 0; }
