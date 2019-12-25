@@ -254,7 +254,7 @@ form .engage:hover {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .section, .minisection {
   padding: 10rem 0 10rem;
-  text-align: center;
+  text-align: left;
 }
 .leftsection{
   padding: 10rem 0 0rem;
