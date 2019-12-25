@@ -60,11 +60,11 @@
 }
 
 /* For devices larger than 750px */
-@media (min-width: 1000px) {
+@media (min-width: 750px) {
   .container {
     width: 50%; }
   .minicontainer {
-      width: 50%; }
+      width: 77%; }
   .column,
   .columns {
     margin-left: 4%; }
