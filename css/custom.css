@@ -257,12 +257,12 @@ form .engage:hover {
   text-align: center;
 }
 .leftAligned{
-  padding: 0 0 0 150px;
   text-align: left;
+  max-width: 30%;
 }
 .rightAligned{
-  padding: 0 150px 0 0;
   text-align: right;
+  max-width: 30%;
 }
 .firstpara, .para {
   padding: 0rem 0 0rem;
