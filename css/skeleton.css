@@ -53,7 +53,7 @@
   box-sizing: border-box; }
 
 /* For devices larger than 400px */
-@media (min-width: 400px) {
+@media (min-width: 350px) {
   .container {
     width: 85%;
     padding: 0; }
@@ -62,7 +62,7 @@
 }
 
 /* For devices larger than 750px */
-@media (min-width: 750px) {
+@media (min-width: 800px) {
   .container {
     width: 50%; }
   .minicontainer {
