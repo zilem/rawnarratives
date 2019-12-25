@@ -68,6 +68,7 @@
   .minicontainer {
     width: 85%; }
   .section {
+    padding: 5rem 0 15rem;
     margin: -10rem 0 0; }
   .column,
   .columns {
