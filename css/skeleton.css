@@ -262,8 +262,8 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  /*font-family: Arial, Helvetica, sans-serif;*/
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  /*font-family: "Times New Roman", Times, serif;*/
   color: #222;
   background-color: #313131;
   /*background-color: $bg-color; color: #313131;*/
@@ -277,17 +277,18 @@ h0, h7, h8 {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 600; }
 h1, h2, h3 {
-  /*font-family: Arial, Helvetica, sans-serif;*/
-  font-family: operetta-8, "Times New Roman", Times, serif; /*'King'; 'Campton-Thin';*/
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 600;
+  /*font-family: operetta-8, "Times New Roman", Times, serif;
+  font-weight: 200;*/
   margin-top: 0;
-  margin-bottom: 2rem;
-  font-weight: 200; }
+  margin-bottom: 2rem; }
 h4, h5, h6 {
-  /*font-family: Arial, Helvetica, sans-serif;*/
-  font-family: "Times New Roman", Times, serif; /*'King'; 'Campton-ExtraLight';*/
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  /*ont-family: "Times New Roman", Times, serif; /*'King'; 'Campton-ExtraLight';*/
+  font-weight: 300;
   margin-top: 0;
-  margin-bottom: 2rem;
-  font-weight: 300; }
+  margin-bottom: 2rem; }
 h0 { font-size: 6.0rem; line-height: 0.8;  letter-spacing: -1.3px;}
 h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
 h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; }
@@ -298,8 +299,8 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 h7 { font-size: 4.0rem; line-height: 0.7;  letter-spacing: -1px;}
 h8 { font-size: 4.0rem; line-height: 0.8;  letter-spacing: -1px;}
 p {
-  /*font-family: Arial, Helvetica, sans-serif;*/
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  /*font-family: "Times New Roman", Times, serif;*/
   font-size: 1.8rem;
   line-height: 1.4;
   margin-top: 0; }
@@ -348,8 +349,8 @@ input[type="button"] {
   background: #FF9E1A;*/
   border-radius: 0px;
   border: 0px;
-  /*font-family: Arial, Helvetica, sans-serif;*/
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  /*font-family: "Times New Roman", Times, serif;*/
   font-size: 12px;
   border-bottom: 1px solid #c5000b;
   color:#000000;
@@ -443,8 +444,8 @@ label,
 legend {
   display: block;
 
-  /*font-family: Arial, Helvetica, sans-serif;*/
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  /*font-family: "Times New Roman", Times, serif;*/
   font-size: 1.5rem;
   line-height: 1.6;
 /*font-weight: 600;*/ }
