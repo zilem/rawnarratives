@@ -62,7 +62,7 @@
 }
 
 /* For devices larger than 750px */
-@media (min-width: 750px) and (min-height:400px) {
+@media (min-width: 750px) {
   .container {
     width: 50%; }
   .minicontainer {
