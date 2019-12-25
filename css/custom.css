@@ -505,14 +505,14 @@ tbody.collapse.in{display:table-row-group}
 
 
 /* Bigger than 550 */
-@media (min-width: 550px) {
+/*@media (min-width: 550px) {
   .section {
     padding: 12rem 0 15rem;
   }
 }
 
 /* Bigger than 750 */
-@media (min-width: 750px) {
+/*@media (min-width: 750px) {
   .section {
     padding: 14rem 0 15rem;
   }
@@ -521,17 +521,10 @@ tbody.collapse.in{display:table-row-group}
     margin-left: auto;
     margin-right: auto;
   }
-  /*.para-description, {
-    max-width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 9999;
-    text-align: left;
-  }*/
 }
 
 /* Bigger than 1000 */
-@media (min-width: 1000px) {
+/*@media (min-width: 1000px) {
   .section {
     padding: 20rem 0 19rem;
   }
