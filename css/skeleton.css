@@ -37,6 +37,7 @@
   box-sizing: border-box; }
 .minicontainer {
   position: relative;
+  margin: 0 auto;
   box-sizing: border-box; }
 
 .column,
