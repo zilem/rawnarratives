@@ -58,7 +58,7 @@ body {
   height: 2px;
   display: block;
   position: relative;
-  background: #c6c8ca; /*#c5000b;*/
+  background: #c5000b; /*#c6c8ca;*/
   transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
   transition-delay: 0s;
 }
@@ -118,7 +118,7 @@ body {
   /*font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 600;*/
   font-family: "Times New Roman", Times, serif;
-  font-size: 28px;
+  font-size: 18px;
 }
 .window .header ul.menu {
   position: relative;
@@ -168,10 +168,10 @@ body {
 .window .header ul.menu li.menu-item a {
   display: block;
   position: relative;
-  color: #c6c8ca; /*#c5000b;*/
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 600;
-  /*font-family: "Times New Roman", Times, serif;*/
+  color: #c5000b; /*#c6c8ca;*/
+  /*font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 600;*/
+  font-family: "Times New Roman", Times, serif;
   /*font-weight: 100;*/
   text-decoration: none;
   font-size: 18px;
