@@ -55,7 +55,7 @@ body {
 }
 .window .header .burger-container #burger .bar {
   width: 100%;
-  height: 2px;
+  height: 1.5px;
   display: block;
   position: relative;
   background: #c5000b; /*#c6c8ca;*/
@@ -118,6 +118,7 @@ body {
   /*font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 600;*/
   font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
   font-size: 18px;
 }
 .window .header ul.menu {
