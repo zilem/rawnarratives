@@ -57,7 +57,9 @@
   .container {
     width: 85%;
     padding: 0; }
-  .section {
+  /*.section {
+    padding: 5rem 0 5rem; }*/
+  .tight {
     padding: 5rem 0 5rem; }
 }
 
@@ -68,8 +70,11 @@
   .minicontainer {
     width: 85%; }
   .section {
-    padding: 5rem 0 15rem;
+    padding: 12rem 0 15rem;
   /*margin: -10rem 0 0;*/ }
+  .tight {
+    padding: 5rem 0 15rem; }
+    
   .column,
   .columns {
     margin-left: 4%; }
@@ -135,8 +140,9 @@
     width: 50%; }
   .minicontainer {
     width: 50%; }
-  .section {
-    margin: 0rem 0 0rem; }
+  .section, .tight {
+    padding: 20rem 0 19rem;}
+
   .column,
   .columns {
     margin-left: 4%; }
