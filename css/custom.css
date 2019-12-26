@@ -250,42 +250,6 @@ form .engage:hover {
   text-transform: uppercase;
 }
 
-/* Sections
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.section {
-  padding: 10rem 0 10rem;
-  text-align: center;
-}
-.leftAligned{
-  text-align: left;
-}
-.rightAligned{
-  text-align: right;
-}
-.firstpara, .para {
-  padding: 0rem 0 0rem;
-  text-align: justify;
-  text-justify: inter-word;
-  z-index: 9999;
-}
-
-.section-heading,
-.section-description {
-  margin-bottom: 1.2rem;
-}
-.footer {
-  padding: 1rem 0 1rem;
-  text-align: center;
-  background-color: #c0c0c0;
-  opacity: 0.88;
-  /*font-family: Arial, Helvetica, sans-serif;*/
-  font-family: "Times New Roman", Times, serif;
-  font-size: 12px;
-  color: #fff;
-  z-index: 1;
-}
-
-
 
 
 /* Article Collapse
