@@ -169,7 +169,7 @@ body {
 .window .header ul.menu li.menu-item a {
   display: block;
   position: relative;
-  color: #c5000b;
+  color: #c6c8ca; /*#c5000b;*/
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 600;
   /*font-family: "Times New Roman", Times, serif;*/
