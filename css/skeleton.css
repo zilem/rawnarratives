@@ -105,6 +105,7 @@
     width: 85%; }
   .section {
     padding: 12rem 0 15rem;
+    padding-bottom: 10rem;
   /*margin: -10rem 0 0;*/ }
 
   .column,
@@ -174,7 +175,8 @@
     width: 50%; }
   .section, .tight {
     padding: 20rem 0 20rem;
-    margin: 0rem 0 0rem; }
+    margin: 0rem 0 0rem;
+    padding-bottom: 10rem;}
 
   .column,
   .columns {
