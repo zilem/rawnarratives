@@ -307,6 +307,7 @@ tbody.collapse.in{display:table-row-group}
   /*border-bottom: 1px solid #ddd;*/
   background-size: cover;
   /*background-color: #fff;*/
+  color: #000000;
   padding-bottom: 5rem;
   z-index: 1;
   background-position: center;
