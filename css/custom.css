@@ -301,7 +301,7 @@ tbody.collapse.in{display:table-row-group}
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .landing, .rms, .meaning, .contact, .mission, .principles,
 .mystory, .meaningless, .inspiration, .empathy, .calling, .meaning2,
-.films, .sheepwolf, .spaceman, .gospace, .cinema, .prescient,
+.films, .sheepwolf, .spacemen, .gospace, .cinema, .prescient,
 .consulting, .worldvision,
 .blog, .respect, .oneword, .truestories, .church, .facts, .intersectionality, .language, .pragmatism {
   /*border-bottom: 1px solid #ddd;*/
@@ -417,7 +417,7 @@ tbody.collapse.in{display:table-row-group}
 .sheepwolf {
   background-image: url('../images/GodBlessYou-01-min.jpg');
 }
-.spaceman {
+.spacemen {
   background-image: url('../images/Spacesuit-01-min.jpg');
 }
 .gospace {
