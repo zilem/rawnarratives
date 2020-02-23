@@ -310,6 +310,7 @@ tbody.collapse.in{display:table-row-group}
   color: #000000;
   padding-bottom: 5rem;
   z-index: 1;
+  font-weight: 100;
   background-position: center;
 }
 .cardA{
