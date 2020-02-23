@@ -140,30 +140,33 @@ body {
   transition: transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99), opacity 0.6s cubic-bezier(0.4, 0.01, 0.165, 0.99), -webkit-transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99);
 }
 .window .header ul.menu li.menu-item:nth-child(1) {
-  transition-delay: 0.63s;
+  transition-delay: 0.70s;
 }
 .window .header ul.menu li.menu-item:nth-child(2) {
-  transition-delay: 0.56s;
+  transition-delay: 0.63s;
 }
 .window .header ul.menu li.menu-item:nth-child(3) {
-  transition-delay: 0.49s;
+  transition-delay: 0.56s;
 }
 .window .header ul.menu li.menu-item:nth-child(4) {
-  transition-delay: 0.42s;
+  transition-delay: 0.49s;
 }
 .window .header ul.menu li.menu-item:nth-child(5) {
-  transition-delay: 0.35s;
+  transition-delay: 0.42s;
 }
 .window .header ul.menu li.menu-item:nth-child(6) {
-  transition-delay: 0.28s;
+  transition-delay: 0.35s;
 }
 .window .header ul.menu li.menu-item:nth-child(7) {
-  transition-delay: 0.21s;
+  transition-delay: 0.28s;
 }
 .window .header ul.menu li.menu-item:nth-child(8) {
-  transition-delay: 0.14s;
+  transition-delay: 0.21s;
 }
 .window .header ul.menu li.menu-item:nth-child(9) {
+  transition-delay: 0.14s;
+}
+.window .header ul.menu li.menu-item:nth-child(10) {
   transition-delay: 0.07s;
 }
 .window .header ul.menu li.menu-item a {
@@ -247,6 +250,9 @@ body {
 }
 .window .header.menu-opened ul.menu li.menu-item:nth-child(9) {
   transition-delay: 0.83s;
+}
+.window .header.menu-opened ul.menu li.menu-item:nth-child(10) {
+  transition-delay: 0.90s;
 }
 
 
