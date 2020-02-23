@@ -172,7 +172,7 @@ body {
 .window .header ul.menu li.menu-item a {
   display: block;
   position: relative;
-  color: #c5000b; /*#c6c8ca;*/
+  color: #000; /*#c5000b; /*#c6c8ca;*/
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 600;
   /*font-family: "Times New Roman", Times, serif;*/
@@ -180,6 +180,7 @@ body {
   text-decoration: none;
   font-size: 18px;
   line-height: 2.2;
+  letter-spacing: -.2rem;
   /*font-weight: 200;*/
   width: 100%;
 }
