@@ -79,8 +79,8 @@ body {
   width: 50px;
   height: 50px;
   text-align: center;
-  /*font-family: Arial, Helvetica, sans-serif;*/
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  /*font-family: "Times New Roman", Times, serif;*/
   letter-spacing: -1px;
   color: #FFF;
   font-size: 18px;
@@ -101,8 +101,8 @@ body {
   transition: transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99);
   transition: transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99), -webkit-transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99);
   transition-delay: 0.50s;
-  /*font-family: Arial, Helvetica, sans-serif;*/
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  /*font-family: "Times New Roman", Times, serif;*/
   font-size: 18px;
 }
 .window .header .icon.icon-bag {
@@ -115,9 +115,9 @@ body {
   transition: transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99);
   transition: transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99), -webkit-transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99);
   transition-delay: 0.50s;
-  /*font-family: "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 600;*/
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  /*font-weight: 600;
+  font-family: "Times New Roman", Times, serif;*/
   font-weight: 600;
   font-size: 18px;
 }
@@ -170,9 +170,9 @@ body {
   display: block;
   position: relative;
   color: #c5000b; /*#c6c8ca;*/
-  /*font-family: "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 600;*/
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  /*font-weight: 600;
+  font-family: "Times New Roman", Times, serif;*/
   /*font-weight: 100;*/
   text-decoration: none;
   font-size: 18px;
