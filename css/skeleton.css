@@ -333,10 +333,10 @@ h16 {
   margin-bottom: 2rem; }
 
 h1, h2, h3 {
-  /*font-family: "Helvetica", Helvetica, sans-serif;
-  font-weight: 600*/
-  font-family: "Times New Roman", Times, serif;
-  font-weight: 200;
+  font-family: "Helvetica", Helvetica, sans-serif;
+  font-weight: 600
+  /*font-family: "Times New Roman", Times, serif;
+  font-weight: 200;*/
   margin-top: 0;
   margin-bottom: 2rem; }
 h4, h5, h6 {
