@@ -315,15 +315,13 @@ body {
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-h0, h7, h8 {
+h0, h7, h8, h11 {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 600; }
-h9, h10 {
+h9, h10, h16 {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 200; }
 h11, h16 {
-  font-family: "Helvetica", Helvetica, sans-serif;
-  font-weight: 200;
   margin-top: 0;
   margin-bottom: 2rem; }
 h1, h2, h3 {
