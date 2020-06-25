@@ -321,14 +321,17 @@ h0, h7, h8 {
   "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold",
   "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma",
   "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; font-stretch:condensed;
-  /*font-family: "HelveticaNeue-CondensedBold", Helvetica, sans-serif;
+  /*font-family: Helvetica, sans-serif;
 font-weight: 600;*/ }
 h9, h10 {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 200; }
 
 h1, h2, h3 {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed",
+  "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed",
+  sans-serif; font-weight:600; font-stretch:condensed;
+  /*"Helvetica Neue", Helvetica, sans-serif;
   font-weight: 600
   /*font-family: "Times New Roman", Times, serif;
   font-weight: 200;*/
