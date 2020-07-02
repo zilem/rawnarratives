@@ -41,8 +41,8 @@
   border-bottom: 2px solid #FFFFFF;
   box-sizing: border-box; }
 .namecontainer {
-  position: absolute;
-  right: 0px;
+  position: relative;
+  /*right: 0px;*/
   margin: 0 auto;
   max-width: 125px;
 }
@@ -327,7 +327,7 @@ font-weight: 600;*/ }
 h7, h8 {
 font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light",
 "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma",
-"Geneva", "Arial", sans-serif; font-weight:200; }
+"Geneva", "Arial", sans-serif; font-weight:300; }
 h9, h10 {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 200; }
