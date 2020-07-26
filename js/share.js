@@ -13,7 +13,7 @@ function tHShare(post_title) {
   window.open ('//twitter.com/intent/tweet?text=' + post_title + '%0A' + location.href.replace(location.hash,""));
 }
 function teHShare(post_title) {
-  window.location = 'tg://msg_url?text=' + post_title + '%0A' + location.href.replace(location.hash,"");
+  window.location = '//telegram.me/share?text=' + post_title + '%0A' + location.href.replace(location.hash,"");
 }
 function fHShare(post_title) {
   window.open ('//facebook.com/sharer/sharer.php?quote=' + post_title + '&u=' + location.href.replace(location.hash,""));
@@ -45,7 +45,7 @@ function tShare(post,post_title) {
 }
 function teShare(post,post_title) {
   var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
-  window.location = 'tg://msg_url?text=' + post_title + '%0A' + location.href.replace(location.hash,"") + '%23' + post;
+  window.location = '//telegram.me/share?text=' + post_title + '%0A' + location.href.replace(location.hash,"") + '%23' + post;
 }
 function fShare(post,post_title) {
   var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
