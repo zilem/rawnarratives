@@ -37,7 +37,7 @@ function waShare(post,post_title) {
 }
 function teShare(post,post_title) {
   var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
-  window.location = 'tg://msg_url?url='+ location.href.replace(location.hash,"") + '&text=' + post_title + '%23' + post;
+  window.location = 'tg://msg_url?url='+ location.href.replace(location.hash,"")+ '%23' + post + '&text=' + post_title;
 }
 function twShare(post,post_title) {
   var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
