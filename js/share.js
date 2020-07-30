@@ -7,7 +7,7 @@ function waHShare(post_title) {
   window.location = 'whatsapp://send?text=' + post_title + '%0A' + location.href.replace(location.hash,"");
 }
 function teHShare(post_title) {
-  window.location = 'tg://msg_url?url='+ location.href.replace(location.hash,"") + '&text=' + post_title;
+  window.location = 'tg://msg_url?url=' + location.href.replace(location.hash,"") + '&text=' + post_title;
 }
 function twHShare(post_title) {
   window.open ('//twitter.com/intent/tweet?text=' + post_title + '%0A' + location.href.replace(location.hash,""));
@@ -37,7 +37,7 @@ function waShare(post,post_title) {
 }
 function teShare(post,post_title) {
   var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
-  window.location = 'tg://msg_url?url='+ location.href.replace(location.hash,"")+ '%23' + post + '&text=' + post_title;
+  window.location = 'tg://msg_url?url=' + location.href.replace(location.hash,"")+ '%23' + post + '&text=' + post_title;
 }
 function twShare(post,post_title) {
   var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
@@ -71,7 +71,7 @@ function wasubShare(subdomain,post_title) {
   window.location = 'whatsapp://send?text=' + post_title + '%0A' + window.location.protocol + '//' + subdomain + "." + window.location.hostname;
 }
 function tesubShare(subdomain,post_title) {
-  window.location = 'tg://msg_url?url='+ location.href.replace(location.hash,"") + subdomain + '&text=' + post_title;
+  window.location = 'tg://msg_url?url=' + location.href.replace(location.hash,"")+ '%23' + post + '&text=' + post_title;
 }
 function twsubShare(subdomain,post_title) {
   window.open ('//twitter.com/intent/tweet?text=' + post_title + '%0A' + window.location.protocol + '//' + subdomain + "." + window.location.hostname);
