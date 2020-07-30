@@ -71,7 +71,7 @@ function wasubShare(subdomain,post_title) {
   window.location = 'whatsapp://send?text=' + post_title + '%0A' + window.location.protocol + '//' + subdomain + "." + window.location.hostname;
 }
 function tesubShare(subdomain,post_title) {
-  window.location = 'tg://msg_url?url=' + location.href.replace(location.hash,"")+ '%23' + post + '&text=' + post_title;
+  window.location = 'tg://msg_url?url=' + location.href.replace(location.hash,"")+ '%23' + subdomain + '&text=' + post_title;
 }
 function twsubShare(subdomain,post_title) {
   window.open ('//twitter.com/intent/tweet?text=' + post_title + '%0A' + window.location.protocol + '//' + subdomain + "." + window.location.hostname);
