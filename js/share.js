@@ -13,7 +13,7 @@ function tHShare(post_title) {
   window.open ('//twitter.com/intent/tweet?text=' + post_title + '%0A' + location.href.replace(location.hash,""));
 }
 function teHShare(post_title) {
-  window.location = '//t.me/share/url?url='+ location.href.replace(location.hash,"") + '&text=' + post_title;
+  window.location = '//t.me/share/url?text=' + post_title + '&url='+ location.href.replace(location.hash,"");
 }
 function fHShare(post_title) {
   window.open ('//facebook.com/sharer/sharer.php?quote=' + post_title + '&u=' + location.href.replace(location.hash,""));
