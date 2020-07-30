@@ -71,7 +71,7 @@ function wasubShare(subdomain,post_title) {
   window.location = 'whatsapp://send?text=' + post_title + '%0A' + window.location.protocol + '//' + subdomain + "." + window.location.hostname;
 }
 function tesubShare(subdomain,post_title) {
-  window.location = 'tg://msg_url?url=' + location.href.replace(location.hash,"")+ '%23' + subdomain + '&text=' + post_title;
+  window.location = 'tg://msg_url?url=' + window.location.protocol + '//' + subdomain + "." + window.location.hostname + '&text=' + post_title;
 }
 function twsubShare(subdomain,post_title) {
   window.open ('//twitter.com/intent/tweet?text=' + post_title + '%0A' + window.location.protocol + '//' + subdomain + "." + window.location.hostname);
@@ -98,7 +98,7 @@ function lisubShare(subdomain,post_title) {
 function wasubpShare(subdomain,page,post_title) {
   window.location = 'whatsapp://send?text=' + post_title + '%0A' + window.location.protocol + '//' + subdomain + "." + window.location.hostname + "/" + page + ".html";
 }
-function tesubShare(subdomain,post_title) {
+function tesubpShare(subdomain,post_title) {
   window.location = 'tg://msg_url?url=' + window.location.protocol + '//' + subdomain + "." + window.location.hostname + "/" + page + ".html%0A&text=" + post_title;
 }
 function twsubpShare(subdomain,page,post_title) {
