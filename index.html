@@ -19,7 +19,7 @@
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -31,6 +31,7 @@
   <link rel="stylesheet" href="https://rawnarrativ.es/css/skeleton.css">
   <link rel="stylesheet" href="https://rawnarrativ.es/css/custom.css">
   <link rel="stylesheet" href="https://rawnarrativ.es/css/menu.css">
+  <link rel="stylesheet" href="https://rawnarrativ.es/css/swiper.min.css">
   <!--<link rel="stylesheet" href="https://i.icomoon.io/public/temp/d3a8c9b913/UntitledProject/style.css">-->
   <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Spectral&display=swap" rel="stylesheet">
@@ -53,6 +54,30 @@ body, html {
   color: #000000; <!-- 50% #808080  25% #BEBEBE -->
   background-color: #313131;
   scroll-behavior: smooth;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
 </style>
 
@@ -88,218 +113,103 @@ body, html {
   </div>
 
 
-  <div class="tight landing">
-    <div class="container">
-      <font color="#FFFFFF">
-      <h6 style="Line-Height:18px; margin-bottom:10px">
-        Why do we find many contemporary movies entertaining yet entirely forgettable?</h6>
-      <h6 style="Line-Height:18px; margin-bottom:10px">
-        Because we're rarely inspired to stand for a higher cause.</h6>
+
+
+  <div class="section tight landing">
+    <font color="#FFFFFF">
+    <h6 style="Line-Height:18px; margin-bottom:10px">
+      Why do we find many contemporary movies entertaining yet entirely forgettable?</h6>
+    <h6 style="Line-Height:18px; margin-bottom:10px">
+      Because we're rarely inspired to stand for a higher cause.</h6>
       <h6 style="Line-Height:18px;">
         I discover...
       </h6>
-      </font>
-      <br>
+    </font>
+    <br>
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
 
-      <div class="minicontainer">
-        <p class="leftAligned" style="margin-top:-15px">
-          <h0>Stories that<br>
-            <font color="#c5000b">ignite</font> the<br>
-            <font color="#c5000b">
-            human<br>
-            spirit.<br>
+        <div class="swiper-slide">
+          <div class= "container" style="margin-top:0px">
+            <h0>Stories<br>
+              that <font color="#b3002d">ignite</font><br>
+              the <font color="#b3002d">human<br>
+              spirit.<br>
+              </font>
+              <br>
+              <font color="#FFFFFF">
+                Zi R. Lem
+              </font>
+            </h0>
+            <font color="#FFFFFF">
+              <h6 style="font-size:20px; Line-Height:25px; margin-top:5px; margin-bottom:10px">
+                Screenwriter-Filmmaker<br>
+                Story Strategist</h6>
             </font>
-          </h0>
-        </p>
+          </div>
+        </div>
 
-        <p class="rightAligned" style="margin-top:-15px">
-          <font color="#BEBEBE">
-          <h7>Filmmaker<br>
-            Screenwriter<br>
-          </h7>
-          <h8>
-            Story Strategist<br>
-          </h8>
-        </font>
-        </p>
-      </div>
-      <!--<h4 class="section-heading" style="margin-top:-5px; margin-bottom:0px;">the</h4>
-      <h2 class="section-heading" style="margin-bottom:0px;">RIVETING CHARACTERS</h2>
-      <h3 class="section-heading" style="margin-top:-5px; margin-bottom:0px;">pursuing</h3>-->
+        <div class="swiper-slide" style="margin-top:50px">
+          <img src= "//rawnarrativ.es/images/TranscendenceGlyph-01.png">
+        </div>
 
-      <div class = "namecontainer">
-        <p class="leftAligned" style="margin-top:20px">
-          <font color="#FFFFFF">
-          <h0>
-            Zi R.<br>
-            Lem
-          </h0>
-          </font>
-        </p>
-        <a href="//imdb.com/name/nm1749939" style="color:inherit; text-decoration:none">
-        <img src="//rawnarrativ.es/images/imdb_bw.png" width='40' height='30'></a>
-          &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="//linkedin.com/in/zilem" style="color:inherit; text-decoration:none">
-        <img src="//rawnarrativ.es/images/linkedin_bw.png" width='30' height='30'></a>
+        <div class="swiper-slide">
+          <p class="leftAligned" style="margin-top:0px">
+            <h8><font color="#FFFFFF"><b><i>raw</i>·nar·ra·tives</b></font></h8><br>
+            <font color="#000000"><h10>/rɔ ˈnær ə tɪvs/</h10><br>
+            <br>
+            <h9>
+              <font color="#000000"><i>verb <b>[why]</b></i></font>
+              <br>
+              <span style="padding-left:20px; display:block; Line-Height:40px;">
+                <font color="#FFFFFF">
+                1.</font>
+                <font color="#b3002d"><b>Inspiring</b></font> <font color="#FFFFFF">purpose.</i></font><br>
+              </span>
+              <br>
+              <font color="#000000"><i>adjective <b>[how]</b></i></font>
+              <br>
+              <span style="padding-left:20px; display:block; Line-Height:40px;">
+                <font color="#FFFFFF">
+                2.</font>
+                <font color="#b3002d"><b>Authentic</b></font> <font color="#FFFFFF">approach.</i></font>
+              </span>
+              <br>
+              <font color="#000000"><i>noun <b>[what]</b></i></font>
+              <br>
+              <span style="padding-left:20px; display:block; Line-Height:40px;">
+                <font color="#FFFFFF">
+                3.</font>
+                <font color="#b3002d"><b>Storytelling.</b></font>
+              </span>
+            </h9>
+          </p>
+        </div>
+
+
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <!--<div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>-->
+
       </div>
       <br>
       <font color="#000000">
       <h6 style="Line-Height:18px; margin-bottom:10px">
         <i>Photo credit: Izidor Gasperlin</i></h6>
       </font>
+      <br>
+      <a href="//imdb.com/name/nm1749939" style="color:inherit; text-decoration:none">
+      <img src="//rawnarrativ.es/images/imdb_bw.png" width='40' height='30'></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="//linkedin.com/in/zilem" style="color:inherit; text-decoration:none">
+      <img src="//rawnarrativ.es/images/linkedin_bw.png" width='30' height='30'></a>
     </div>
   </div>
 
 
-
-  <div class="section cardR" id="Approach">
-    <div class="container" id="module">
-
-      <div class="minicontainer">
-        <p class="leftAligned" style="margin-top:-15px">
-          <h8><font color="#000000"><i>raw</i>·nar·ra·tives</font></h8><br>
-          <font color="#BEBEBE"><h10>/rɔ ˈnær ə tɪvs/</h10><br>
-          <br>
-          <h9>
-            <font color="#BEBEBE"><i>verb <b>[why]</b></i></font>
-            <br>
-            <span style="padding-left:20px; display:block; Line-Height:40px;">
-              <font color="#000000">
-              1. <b>Inspiring</b> purpose.</i></font><br>
-            </span>
-            <br>
-            <font color="#BEBEBE"><i>adjective <b>[how]</b></i></font>
-            <br>
-            <span style="padding-left:20px; display:block; Line-Height:40px;">
-              <font color="#000000">
-              2. <b>Authentic</b> approach.</i></font>
-            </span>
-            <br>
-            <font color="#BEBEBE"><i>noun <b>[what]</b></i></font>
-            <br>
-            <span style="padding-left:20px; display:block; Line-Height:40px;">
-              <font color="#000000">
-              3. <b>Storytelling.</b></font>
-            </span>
-          </h9>
-        </p>
-        <br>
-
-      </div>
-    </div>
-  </div>
-
-      <!--<h2 class="section-heading">Raw Narratives by Zi Lem</h2>
-      <font color="#c5000b">
-      <h6 class="tagline" style="Line-Height:22px; text-transform:uppercase">Making stories matter.</h6>
-      </font>
-      <br>
-      <p class="firstpara">AN APPROACH TO storytelling that is <b>authentic,
-        vulnerable</b> and <b>accessible</b> is about
-      </p>
-      <p>
-        <font color="#c5000b">1.<br> Making stories <b><i>matters.</i></b></font><br>
-        The belief that making and telling meaningful stories is the way to
-        impact human beings.<br>
-        <br>
-        <font color="#c5000b">2.<br> <b><i>Making stories</i></b> that matter.</font><br>
-        Building impactful narratives from scratch.<br>
-        <br>
-        <font color="#c5000b">3.<br> <b><i>Making them matter.</i></b></font><br>
-        Retelling existing narratives to impact your intended audience.
-      </p>
-      <br>
-      <br>
-
-      <div class="collapse" id="collapseApproach" aria-expanded="false">
-        <p class = "firstpara">
-          IMPACTFUL STORIES ADDRESS their audience's insecurities.
-        </p>
-        <p>
-          <i>“Will I be able to overcome discrimination to pursue my dreams?”<br>
-          <b>Gattaca</b></i><br>
-          <br>
-          <i>“Will I be able to find love and companionship for the rest of my
-            life?”<br>
-          <b>The Lobster</b></i>
-        </p>
-        <br>
-        <font color="#c5000b">
-        <h6 class="tagline" style="Line-Height:22px; text-transform:uppercase">
-          Insecurities plague our confidence. Our identity. Our sense of self.</h6>
-        </font>
-        <br>
-        <p class = "para">
-          We root for heroes who overcome insecurities we can <i>identify with.</i>
-        </p>
-        <br>
-        <br>
-
-        <p class = "firstpara">
-          CULT BRANDS GO beyond addressing customers' pain points. They are
-          found on the basis of resolving their customers' insecurities.
-        </p>
-        <p>
-          <i>“Will I be able to overcome my fear of computers and technology?”<br>
-          <b>Apple</b></i><br>
-          <br>
-          <i>“Will I be able to diagnose my health issues and afford preventive
-            healthcare?”<br>
-          <b>Theranos</b></i>
-        </p>
-        <p class = "para">
-          The above insecurities are universal enough that they <b>resonate</b>
-          with a pre-defined psychographic. As such,
-        </p>
-        <br>
-        <font color="#c5000b">
-        <h6 class="tagline" style="Line-Height:22px; text-transform:uppercase">
-          Narratives that resolve insecurities have built-in audiences by default.</h6>
-        </font>
-        <br>
-          <a href="//strategy.rawnarrativ.es" style="color:inherit">Story strategy</a>
-          is about building narratives that go beyond overcoming insecurities to
-          provide the audience <i>a compelling identity they can't resist.</i>
-        </p>
-      </div>
-      <button class="buttonML_B collapsed" data-toggle="collapse" href="#collapseApproach"
-      aria-expanded="false" aria-controls="collapseApproach"></button>
-      <br>
-      <div class='buttonSNone_B popup' onclick="shareFunction('ApproachShare')">S H A R E
-        <span class="popuptext" id="ApproachShare">
-          <span onclick="waShare('Approach','*Raw Narratives by Zi Lem* %0A_Making stories matter._')"><img src='//rawnarrativ.es/images/whatsapp_wb.png' width='30' height='30'></span>&nbsp;
-          <span onclick="liShare('Approach','Raw Narratives by Zi Lem - Making stories matter.')"><img src='//rawnarrativ.es/images/linkedin_wb.png' width='30' height='30'></span>&nbsp;
-          <span onclick="twShare('Approach','Raw Narratives by Zi Lem - Making stories matter.')"><img src='//rawnarrativ.es/images/twitter_wb.png' width='30' height='30'></span>&nbsp;
-          <span onclick="fbShare('Approach','Raw Narratives by Zi Lem - Making stories matter.')"><img src='//rawnarrativ.es/images/facebook_wb.png' width='30' height='30'></span>&nbsp;
-          <span onclick="emShare('Approach','Raw Narratives by Zi Lem - Making stories matter.')"><img src='//rawnarrativ.es/images/email_wb.png' width='30' height='24' style="padding-bottom:3px"></span>
-        </span>
-      </div>-->
-
-
-      <!--<font color="#c5000b">
-      <h5 style="Line-Height:22px;">
-        <i>by Zi Lem</i>
-      </h5></font>
-      <br>
-      <p class="firstpara">AN APPROACH TO storytelling that is
-        <b>authentic</b> to the spirit of the story.<br>
-        <br>
-        A belief in delivering ideas, meaning and value in service of what the
-        audience <b>wants.</b> More importantly, what the audience <b>needs.</b><br>
-        <br>
-        A commitment to the importance of <b>why</b> the story is told as
-        much as <b>what</b> is told and <b>how</b> it is told.<br>
-        <br>
-      </p>
-      <div class='buttonSTop_B popup' onclick="shareFunction('RawNarrativesShare')">S H A R E
-        <span class="popuptext" id="RawNarrativesShare">
-          <span onclick="waHShare('*Raw Narratives* %0A_by Zi Lem_')"><img src='//rawnarrativ.es/images/whatsapp_wb.png' width='30' height='30'></span>&nbsp;
-          <span onclick="liHShare('Raw Narratives by Zi Lem')"><img src='//rawnarrativ.es/images/linkedin_wb.png' width='30' height='30'></span>&nbsp;
-          <span onclick="twHShare('Raw Narratives by Zi Lem')"><img src='//rawnarrativ.es/images/twitter_wb.png' width='30' height='30'></span>&nbsp;
-          <span onclick="fbHShare('Raw Narratives by Zi Lem')"><img src='//rawnarrativ.es/images/facebook_wb.png' width='30' height='30'></span>&nbsp;
-          <span onclick="emHShare('Raw Narratives by Zi Lem')"><img src='//rawnarrativ.es/images/email_wb.png' width='30' height='24' style="padding-bottom:3px"></span>
-        </span>
-      </div>-->
 
 
   <div class="section principles" id="MVVP">
@@ -1033,6 +943,30 @@ body, html {
 </div>
 
 <script src="https://rawnarrativ.es/js/index.js"></script>
+
+<!-- Swiper JS -->
+ <script src="https://rawnarrativ.es/js/swiper.min.js"></script>
+
+ <!-- Initialize Swiper -->
+ <script>
+   var swiper = new Swiper('.swiper-container', {
+     slidesPerView: 1,
+     spaceBetween: 30,
+     centeredSlides: true,
+     autoplay: {
+       delay: 2500,
+       disableOnInteraction: false,
+     },
+     pagination: {
+       el: '.swiper-pagination',
+       clickable: true,
+     },
+     navigation: {
+       nextEl: '.swiper-button-next',
+       prevEl: '.swiper-button-prev',
+     },
+   });
+ </script>
 
 
 <!-- End Document
