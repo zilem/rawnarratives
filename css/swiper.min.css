@@ -14,7 +14,7 @@
 
 .swiper-pagination-bullet {
     opacity: 1;
-    /*border: white solid 1px;*/
+    border: #b3002d solid 1px;
     background-color: transparent;
 }
 
