@@ -493,6 +493,6 @@ tbody.collapse.in{display:table-row-group}
 /* Bigger than 1000 */
 @media (min-width: 1000px) {
   .section, .tight {
-    padding: 18rem 0 18rem;
+    padding: 15rem 0 15rem;
   }
 }
