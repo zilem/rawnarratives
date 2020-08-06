@@ -187,9 +187,9 @@ body {
 }
 .window .header.menu-opened {
   height: 100%;
-  /*background-color: #fff;*/
-  background-image: url('../images/TheDeep-02.jpg');
-  background-position: center;
+  background-color: #fff;
+  /*background-image: url('../images/TheDeep-02.jpg');
+  background-position: center;*/
   opacity: 1.0;
   transition: all 0s ease-in, background 0s ease-in;
   transition-delay: 0.25s;
