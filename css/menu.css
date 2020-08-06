@@ -2,8 +2,8 @@
 body {
   margin: 0;
   line-height: 1.4;
-  /*background: #E1E1E1;*/
-  background-image: url('../images/TheDeep-02.jpg');
+  background: #E1E1E1;
+
 }
 
 .window {
@@ -15,7 +15,8 @@ body {
   box-shadow: 0 0 65px 15px rgba(0, 0, 0, 0.2);
   overflow: scroll;
   border-radius: 3px;
-  background: #c0c0c0;
+  /*background: #c0c0c0;*/
+  background-image: url('../images/TheDeep-02.jpg');
 }
 .window .header {
   position: absolute;
