@@ -15,8 +15,7 @@ body {
   box-shadow: 0 0 65px 15px rgba(0, 0, 0, 0.2);
   overflow: scroll;
   border-radius: 3px;
-  /*background: #c0c0c0;*/
-  background-image: url('../images/TheDeep-02.jpg');
+  background: #c0c0c0;
 }
 .window .header {
   position: absolute;
@@ -188,7 +187,8 @@ body {
 }
 .window .header.menu-opened {
   height: 100%;
-  background-color: #fff;
+  /*background-color: #fff;*/
+  background-image: url('../images/TheDeep-02.jpg');
   opacity: 1.0;
   transition: all 0s ease-in, background 0s ease-in;
   transition-delay: 0.25s;
