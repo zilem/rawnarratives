@@ -244,9 +244,13 @@ form .engage:hover {
 .tagline::first-letter {
 
   font-size: 2.0rem;
-  /*line-height: 50px;*/
-
   opacity: 0.8;
+}
+
+.tagline {
+  font-weight: 1000;
+  line-height: 22px;
+  text-transform:uppercase;
 }
 
 /*.para::first-line{
