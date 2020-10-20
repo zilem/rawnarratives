@@ -7,11 +7,11 @@
   /* background: #FF9E1A;
   border-radius: 10px;
   border: 0px;*/
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Simplifica', 'Helvetica Neue', Helvetica, sans-serif;
   /*font-family: "Times New Roman", Times, serif;*/
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 1px;
-  font-weight: 500;
+  font-weight: bold;
   background-color: transparent; /*#313131;*/
   border-bottom: 1px solid #c5000b;
   text-decoration: none;
@@ -25,11 +25,11 @@
   width: 120px;
   padding: 0px 15px 0px;
   background-color: transparent; /*#313131;*/
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Simplifica', 'Helvetica Neue', Helvetica, sans-serif;
   /*font-family: "Times New Roman", Times, serif;*/
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 1px;
-  font-weight: 500;
+  font-weight: bold;
 }
 .buttonML_W, .buttonML_W:hover, .buttonML_W:focus {
   border-bottom: 1px solid #c5000b;
@@ -46,10 +46,10 @@
   position: absolute;
   background-color: transparent;
   letter-spacing: .1rem;
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Simplifica', 'Helvetica Neue', Helvetica, sans-serif;
   /*font-family: "Times New Roman", Times, serif;*/
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: bold;
   text-decoration: none;
 }
 .buttonSNone_W {
@@ -84,7 +84,8 @@
 #module button.collapsed:after  {
   content: 'M O R E';
   /*font-style: italic;*/
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: bold;
   color:#c5000b;
 }
 
