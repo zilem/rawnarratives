@@ -315,7 +315,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Helvetica", Helvetica, sans-serif;
+  font-family: 'simplificasimplifica', "Helvetica", Helvetica, sans-serif;
   /*font-family: "Times New Roman", Times, serif;*/
   color: #222;
   background-color: #313131;
