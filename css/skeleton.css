@@ -73,10 +73,10 @@
   padding: 1rem 0 1rem;
   text-align: center;
   background-color: #c0c0c0;
-  opacity: 0.88;
+  opacity: 1;
   font-family: 'Simplifica', "Helvetica Neue", Helvetica, sans-serif;
   /*font-family: "Times New Roman", Times, serif;*/
-  font-size: 12px;
+  font-size: 14px;
   color: #fff;
   letter-spacing: 1px;
   z-index: 1;
