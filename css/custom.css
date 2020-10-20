@@ -9,7 +9,8 @@
   border: 0px;*/
   font-family: 'Simplifica', "Helvetica Neue", Helvetica, sans-serif;
   /*font-family: "Times New Roman", Times, serif;*/
-  font-size: 12px;
+  font-size: 14px;
+  letter-spacing: 1px;
   font-weight: 500;
   background-color: transparent; /*#313131;*/
   border-bottom: 1px solid #c5000b;
@@ -26,7 +27,8 @@
   background-color: transparent; /*#313131;*/
   font-family: 'Simplifica', "Helvetica Neue", Helvetica, sans-serif;
   /*font-family: "Times New Roman", Times, serif;*/
-  font-size: 12px;
+  font-size: 14px;
+  letter-spacing: 1px;
   font-weight: 500;
 }
 .buttonML_W, .buttonML_W:hover, .buttonML_W:focus {
@@ -46,7 +48,8 @@
   letter-spacing: .1rem;
   font-family: 'Simplifica', "Helvetica Neue", Helvetica, sans-serif;
   /*font-family: "Times New Roman", Times, serif;*/
-  font-size: 12px;
+  font-size: 14px;
+  letter-spacing: 1px;
   font-weight: 500;
   text-decoration: none;
 }
@@ -80,8 +83,8 @@
 
 
 #module button.collapsed:after  {
-  content: 'Learn More';
-  font-style: italic;
+  content: 'M O R E';
+  /*font-style: italic;*/
   font-size: 14px;
   color:#c5000b;
 }
