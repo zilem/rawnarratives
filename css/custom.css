@@ -253,6 +253,10 @@ form .engage:hover {
   text-transform:uppercase;
 }
 
+.prologue {
+  line-height: 22px;
+}
+
 /*.para::first-line{
   text-transform: uppercase;
 }
