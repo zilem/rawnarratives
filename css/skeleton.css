@@ -237,6 +237,16 @@
   .offset-by-one-half.column,
   .offset-by-one-half.columns     { margin-left: 52%; }
 }
+
+@font-face {
+    font-family: 'simplificasimplifica';
+    src: url('../fonts/simplifica-webfont.woff2') format('woff2'),
+         url('../fonts/simplifica-webfont.woff') format('woff'),
+         url('../fonts/simplifica.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*@font-face {font-family: "SF-Pro-Display-Thin";
       src: url('../fonts/SF/SF-Pro-Display-Thin.otf') format('opentype');}
 @font-face {font-family: "SF-Pro-Display-Ultralight";
@@ -316,12 +326,6 @@ body {
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@font-face {
- font-family: "Simplifica";
- src: local('Simplifica Regular'), local('Simplifica');
- /* Check how the font is written on the machine --> Right click on file -> Details -> Title */
- src: url(/fonts/simplifica.ttf) format('truetype');
- font-weight: normal;}
 
 h0 {
   font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed",
@@ -340,7 +344,7 @@ h9, h10 {
   font-weight: 200; }
 
 h1, h2, h3 {
-  font-family: "Simplifica", "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed",
+  font-family: 'simplificasimplifica', "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed",
   "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed",
   sans-serif; font-weight:600; font-stretch:condensed;
   /*"Helvetica Neue", Helvetica, sans-serif;
@@ -349,7 +353,7 @@ h1, h2, h3 {
   font-weight: 200;*/
   margin-top: 0; }
 h4, h5, h6 {
-  font-family: "Simplifica", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'simplificasimplifica', "Helvetica Neue", Helvetica, sans-serif;
   /*font-family: "Times New Roman", Times, serif;*/
   font-weight: 300;
   margin-top: 0;
