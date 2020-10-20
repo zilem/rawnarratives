@@ -317,7 +317,7 @@ body {
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @font-face {
- font-family: Simplifica;
+ font-family: "Simplifica";
  src: local('Simplifica Regular'), local('Simplifica');
  /* Check how the font is written on the machine --> Right click on file -> Details -> Title */
  src: url(/fonts/simplifica.ttf) format('truetype');
