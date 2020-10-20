@@ -2,9 +2,9 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button, .button:hover, .button:focus,
 .button1, .button1:hover, .button1:focus {
+  height: 38px;
   padding: 0 20px;
-  /*height: 38px;
-  background: #FF9E1A;
+  /* background: #FF9E1A;
   border-radius: 10px;
   border: 0px;*/
   font-family: "Helvetica Neue", Helvetica, sans-serif;
@@ -21,7 +21,7 @@
 .buttonML_W, .buttonML_W:hover, .buttonML_W:focus,
 .buttonML_B, .buttonML_B:hover, .buttonML_B:focus,
 .button1ML_B, .button1ML_B:hover, .button1ML_B:focus  {
-  /*height: 38px;*/
+  height: 38px;
   width: 120px;
   padding: 0px 15px 0px;
   background-color: transparent; /*#313131;*/
