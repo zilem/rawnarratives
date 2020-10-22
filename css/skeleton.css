@@ -241,9 +241,9 @@
 
 @font-face {
     font-family: 'Simplifica';
-    src: url('../fonts/simplifica-webfont.woff2') format('woff2'),
-         url('../fonts/simplifica-webfont.woff') format('woff'),
-         url('../fonts/simplifica.ttf') format('truetype');
+    src: url('https://rawnarrativ.es/fonts/simplifica-webfont.woff2') format('woff2'),
+         url('https://rawnarrativ.es/fonts/simplifica-webfont.woff') format('woff'),
+         url('https://rawnarrativ.es/fonts/simplifica.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
