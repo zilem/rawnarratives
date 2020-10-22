@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Simplifica';
+    src: url('/fonts/simplifica-webfont.woff2') format('woff2'),
+         url('/fonts/simplifica-webfont.woff') format('woff'),
+         url('/fonts/simplifica-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*
 * Skeleton V2.0.4
 * Copyright 2014, Dave Gamache
@@ -239,14 +248,7 @@
   .offset-by-one-half.columns     { margin-left: 52%; }
 }
 
-@font-face {
-    font-family: 'Simplifica';
-    src: url('/fonts/simplifica-webfont.woff2') format('woff2'),
-         url('/fonts/simplifica-webfont.woff') format('woff'),
-         url('/fonts/simplifica-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 /*@font-face {font-family: "SF-Pro-Display-Thin";
       src: url('../fonts/SF/SF-Pro-Display-Thin.otf') format('opentype');}
