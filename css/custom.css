@@ -23,6 +23,8 @@
   font-family: "Times New Roman", Times, serif;*/
   font-family: 'Simplifica', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
 
 .buttonML_W, .buttonML_W:hover, .buttonML_W:focus,
@@ -35,6 +37,8 @@
   font-family: 'Simplifica', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
   /*font-family: "Times New Roman", Times, serif;*/
   font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
 .buttonML_W, .buttonML_W:hover, .buttonML_W:focus {
   border-bottom: 1px solid #c5000b;
@@ -54,6 +58,8 @@
   font-family: 'Simplifica', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
   /*font-family: "Times New Roman", Times, serif;*/
   font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
 .buttonSNone_W {
   top: 0px;
