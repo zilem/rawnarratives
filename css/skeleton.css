@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Simplifica';
+    src: url('/fonts/simplifica-webfont.woff2') format('woff2'),
+         url('/fonts/simplifica-webfont.woff') format('woff'),
+         url('/fonts/simplifica-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*
 * Skeleton V2.0.4
 * Copyright 2014, Dave Gamache
@@ -74,7 +83,7 @@
   text-align: center;
   background-color: #c0c0c0;
   opacity: 1;
-  font-family: 'Simplifica', "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Simplifica', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
   /*font-family: "Times New Roman", Times, serif;*/
   font-size: 14px;
   color: #fff;
@@ -306,11 +315,11 @@ html {
   font-size: 62.5%; }
 $bg-color: rgb(31,31,31);
 body {
+  font-family: 'Simplifica', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+  /*font-family: "Times New Roman", Times, serif;*/
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: 'Simplifica', "Helvetica", Helvetica, sans-serif;
-  /*font-family: "Times New Roman", Times, serif;*/
   color: #222;
   background-color: #313131;
   /*background-color: $bg-color; color: #313131;*/
@@ -323,21 +332,21 @@ body {
 
 /* h0 - section-heading */
 h0 {
-  font-family: 'Simplifica', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Simplifica', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
   font-weight:300;
   /*font-stretch:condensed;*/
- }
+  }
 h7, h8 {
-font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light",
-"HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma",
-"Geneva", "Arial", sans-serif; font-weight:300; }
+font-family: 'Simplifica', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+  }
 h9, h10 {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 200; }
+  font-family: 'Simplifica', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 200;
+  }
 
 /* h1 - section-heading */
 h1, h2, h3 {
-  font-family: 'Simplifica', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Simplifica', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
   font-weight:300;
   /*font-family: "Times New Roman", Times, serif;
   font-stretch:condensed;
@@ -346,7 +355,7 @@ h1, h2, h3 {
 
 /* h6 - prologue, tagline */
 h4, h5, h6 {
-  font-family: 'Simplifica', 'Helvetica Neue Light', 'Helvetica Neue',  Helvetica, sans-serif;
+  font-family: 'Simplifica', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",  Helvetica, sans-serif;
   /*font-family: "Times New Roman", Times, serif;*/
   font-weight: 300;
   margin-top: 0;

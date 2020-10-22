@@ -21,8 +21,8 @@
   border-radius: 10px;
   border: 0px;
   font-family: "Times New Roman", Times, serif;*/
-  font-family: 'Simplifica', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 2.0rem;
+  font-family: 'Simplifica', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 13px;
   font-weight: 500;
   letter-spacing: 1px;
 }
@@ -34,9 +34,9 @@
   width: 120px;
   padding: 0px 15px 0px;
   background-color: transparent; /*#313131;*/
-  font-family: 'Simplifica', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Simplifica', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
   /*font-family: "Times New Roman", Times, serif;*/
-  font-size: 2.0rem;
+  font-size: 13px;
   font-weight: 500;
   letter-spacing: 1px;
 }
@@ -55,9 +55,9 @@
   position: absolute;
   background-color: transparent;
   text-decoration: none;
-  font-family: 'Simplifica', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Simplifica', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
   /*font-family: "Times New Roman", Times, serif;*/
-  font-size: 2.0rem;
+  font-size: 13px;
   font-weight: 500;
   letter-spacing: 1px;
 }
