@@ -22,9 +22,7 @@
   border: 0px;
   font-family: "Times New Roman", Times, serif;*/
   font-family: 'Simplifica', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 2.0rem;
-  font-weight: 500;
-  letter-spacing: 1px;
+  font-size: 1.8rem;
 }
 
 .buttonML_W, .buttonML_W:hover, .buttonML_W:focus,
@@ -36,9 +34,7 @@
   background-color: transparent; /*#313131;*/
   font-family: 'Simplifica', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
   /*font-family: "Times New Roman", Times, serif;*/
-  font-size: 2.0rem;
-  font-weight: 500;
-  letter-spacing: 1px;
+  font-size: 1.8rem;
 }
 .buttonML_W, .buttonML_W:hover, .buttonML_W:focus {
   border-bottom: 1px solid #c5000b;
@@ -57,9 +53,7 @@
   text-decoration: none;
   font-family: 'Simplifica', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
   /*font-family: "Times New Roman", Times, serif;*/
-  font-size: 2.0rem;
-  font-weight: 500;
-  letter-spacing: 1px;
+  font-size: 1.8rem;
 }
 .buttonSNone_W {
   top: 0px;
