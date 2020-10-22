@@ -1,21 +1,30 @@
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+@font-face {
+    font-family: 'Simplifica';
+    src: url('/fonts/simplifica-webfont.woff2') format('woff2'),
+         url('/fonts/simplifica-webfont.woff') format('woff'),
+         url('/fonts/simplifica-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .button, .button:hover, .button:focus,
 .button1, .button1:hover, .button1:focus {
   height: 38px;
   padding: 0 20px;
-  /* background: #FF9E1A;
-  border-radius: 10px;
-  border: 0px;*/
-  font-family: 'Simplifica', 'Helvetica Neue', Helvetica, sans-serif;
-  /*font-family: "Times New Roman", Times, serif;*/
-  font-size: 2.0rem;
-  letter-spacing: 1px;
-  font-weight: 800;
   background-color: transparent; /*#313131;*/
   border-bottom: 1px solid #c5000b;
   text-decoration: none;
   color:#000000;
+  /* background: #FF9E1A;
+  border-radius: 10px;
+  border: 0px;
+  font-family: "Times New Roman", Times, serif;*/
+  font-family: 'Simplifica', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 2.0rem;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 .buttonML_W, .buttonML_W:hover, .buttonML_W:focus,
@@ -25,11 +34,11 @@
   width: 120px;
   padding: 0px 15px 0px;
   background-color: transparent; /*#313131;*/
-  font-family: 'Simplifica', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Simplifica', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, sans-serif;
   /*font-family: "Times New Roman", Times, serif;*/
   font-size: 2.0rem;
+  font-weight: 500;
   letter-spacing: 1px;
-  font-weight: 800;
 }
 .buttonML_W, .buttonML_W:hover, .buttonML_W:focus {
   border-bottom: 1px solid #c5000b;
@@ -45,12 +54,12 @@
 .buttonSNone_W, .buttonSNone_B {
   position: absolute;
   background-color: transparent;
-  letter-spacing: 1px;
-  font-family: 'Simplifica', 'Helvetica Neue', Helvetica, sans-serif;
+  text-decoration: none;
+  font-family: 'Simplifica', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, sans-serif;
   /*font-family: "Times New Roman", Times, serif;*/
   font-size: 2.0rem;
-  font-weight: 800;
-  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 .buttonSNone_W {
   top: 0px;
