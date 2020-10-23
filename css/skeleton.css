@@ -330,7 +330,7 @@ body {
 
 /* h0 - section-heading */
 h0 {
-  font-family: 'Simplifica', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Simplifica', 'Open Sans Condensed', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
   font-weight:300;
   /*font-stretch:condensed;*/
   }
@@ -344,7 +344,7 @@ h9, h10 {
 
 /* h1 - section-heading */
 h1, h2, h3 {
-  font-family: 'Simplifica', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Simplifica', 'Open Sans Condensed', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
   font-weight:300;
   /*font-family: "Times New Roman", Times, serif;
   font-stretch:condensed;
