@@ -1,14 +1,5 @@
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@font-face {
-    font-family: 'Simplifica';
-    src: url('/fonts/simplifica-webfont.woff2') format('woff2'),
-         url('/fonts/simplifica-webfont.woff') format('woff'),
-         url('/fonts/simplifica-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 .button, .button:hover, .button:focus,
 .button1, .button1:hover, .button1:focus {
   height: 38px;
@@ -21,7 +12,7 @@
   border-radius: 10px;
   border: 0px;
   font-family: "Times New Roman", Times, serif;*/
-  font-family: 'Simplifica', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Open Sans Condensed', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
   letter-spacing: 1px;
@@ -34,7 +25,7 @@
   width: 120px;
   padding: 0px 15px 0px;
   background-color: transparent; /*#313131;*/
-  font-family: 'Simplifica', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Open Sans Condensed', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
   /*font-family: "Times New Roman", Times, serif;*/
   font-size: 1.8rem;
   font-weight: 400;
@@ -55,7 +46,7 @@
   position: absolute;
   background-color: transparent;
   text-decoration: none;
-  font-family: 'Simplifica', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Open Sans Condensed', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
   /*font-family: "Times New Roman", Times, serif;*/
   font-size: 1.8rem;
   font-weight: 400;
