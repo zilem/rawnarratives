@@ -14,10 +14,10 @@
 
 .swiper-pagination-bullet {
     opacity: 1;
-    border: #b3002d solid 1px;
+    border: #EF3B24 solid 1px;
     background-color: transparent;
 }
 
 .swiper-pagination-bullet-active {
-    background-color: #b3002d;
+    background-color: #EF3B24;
 }
