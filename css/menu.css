@@ -58,7 +58,7 @@ body {
   height: 2.0px; /*1.5px;*/
   display: block;
   position: relative;
-  background: #FFFF00; /*#c6c8ca;*/
+  background: #FFC800; /*#c6c8ca;*/
   transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
   transition-delay: 0s;
 }
