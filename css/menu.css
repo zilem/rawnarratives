@@ -130,7 +130,7 @@ body {
 
 
 .window .header ul.menu li.menu-item {
-  border-bottom: 1px solid #c0c0c0;
+  border-bottom: 1px solid #909090; /*#c0c0c0;*/
   margin-top: 5px;
   -webkit-transform: scale(1.15) translateY(-30px);
           transform: scale(1.15) translateY(-30px);
