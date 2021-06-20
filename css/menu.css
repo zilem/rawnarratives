@@ -59,7 +59,7 @@ body {
   height: 1.5px;
   display: block;
   position: relative;
-  background: #c5000b; /*#c6c8ca;*/
+  background: #21409A; /*#c6c8ca;*/
   transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
   transition-delay: 0s;
 }
@@ -176,7 +176,7 @@ body {
 .window .header ul.menu li.menu-item a {
   display: block;
   position: relative;
-  color: #000; /*#c5000b; /*#c6c8ca;*/
+  color: #000; /*#21409A; /*#c6c8ca;*/
   font-family: 'Open Sans Condensed', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 400;
   /*font-family: "Times New Roman", Times, serif;*/
