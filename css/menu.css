@@ -55,7 +55,7 @@ body {
 }
 .window .header .burger-container #burger .bar {
   width: 100%;
-  height: 1.5px;
+  height: 2.0px; /*1.5px;*/
   display: block;
   position: relative;
   background: #FFFF00; /*#c6c8ca;*/
