@@ -78,6 +78,14 @@ body {
   background: #0000c8;
   z-index: 9999;
 }
+.window .header .burger-container #burger .bar2.topBar {
+  -webkit-transform: translateY(0px) rotate(0deg);
+          transform: translateY(0px) rotate(0deg);
+}
+.window .header .burger-container #burger .bar2.btmBar {
+  -webkit-transform: translateY(6px) rotate(0deg);
+          transform: translateY(6px) rotate(0deg);
+}
 
 .window .header .icon {
   display: inline-block;
