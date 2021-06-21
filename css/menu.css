@@ -53,12 +53,19 @@ body {
   margin: -18px auto 0;
   top: 50%;
 }
-.window .header .burger-container #burger .bar {
+.window .header .burger-container #burger .bar2 {
   width: 100%;
-  height: 2.0px; /*1.5px;*/
+  height: 1.5px;
   display: block;
   position: relative;
-  background: #FFC800; /*#c6c8ca;*/
+  background: #0000c8; 
+}
+.window .header .burger-container #burger .bar {
+  width: 100%;
+  height: 1.5px;
+  display: block;
+  position: relative;
+  background: #FFFFFF; /*#c6c8ca;*/
   transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
   transition-delay: 0s;
 }
