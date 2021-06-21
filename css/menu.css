@@ -53,13 +53,6 @@ body {
   margin: -18px auto 0;
   top: 50%;
 }
-.window .header .burger-container #burger .bar2 {
-  width: 100%;
-  height: 1.5px;
-  display: block;
-  position: relative;
-  background: #0000c8; 
-}
 .window .header .burger-container #burger .bar {
   width: 100%;
   height: 1.5px;
@@ -76,6 +69,13 @@ body {
 .window .header .burger-container #burger .bar.btmBar {
   -webkit-transform: translateY(6px) rotate(0deg);
           transform: translateY(6px) rotate(0deg);
+}
+.window .header .burger-container #burger .bar2 {
+  width: 100%;
+  height: 1.5px;
+  display: block;
+  position: relative;
+  background: #0000c8;
 }
 
 .window .header .icon {
