@@ -58,7 +58,7 @@ body {
   height: 1.5px;
   display: block;
   position: relative;
-  background: #FFFFFF;
+  background: #DCDCDC;
 }
 .window .header .burger-container #burger .bar2.topBar {
   -webkit-transform: translateY(0px);
