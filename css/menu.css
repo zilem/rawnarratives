@@ -59,6 +59,8 @@ body {
   display: block;
   position: relative;
   background: #FFFFFF;
+  transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+  transition-delay: 0s;
 }
 .window .header .burger-container #burger .bar2.topBar {
   -webkit-transform: translateY(1px) rotate(0deg);
