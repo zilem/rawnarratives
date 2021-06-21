@@ -74,7 +74,7 @@ body {
   height: 1.5px;
   display: block;
   position: relative;
-  background: #0000c8; /*#c6c8ca;*/
+  background: #0000C8; /*#c6c8ca;*/
   transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
   transition-delay: 0s;
 }
@@ -192,7 +192,7 @@ body {
 .window .header ul.menu li.menu-item a {
   display: block;
   position: relative;
-  color: #000; /*#0000c8; /*#c6c8ca;*/
+  color: #000; /*#0000C8; /*#c6c8ca;*/
   font-family: 'Open Sans Condensed', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 400;
   /*font-family: "Times New Roman", Times, serif;*/
@@ -206,7 +206,7 @@ body {
 }
 .window .header.menu-opened {
   height: 100%;
-  background-color: #0000c8; /*#FFFFFF;*/
+  background-color: #0000C8; /*#FFFFFF;*/
   /*background-image: url('../images/TheDeep-02.jpg');
   background-position: center;*/
   opacity: 1.0;
@@ -231,6 +231,13 @@ body {
   -webkit-transform: translateY(3px) rotate(-45deg);
           transform: translateY(3px) rotate(-45deg);
   background: #FFFFFF;
+}
+
+.window .header.menu-opened .burger-container #burger .bar2.topBar {
+  background: #0000C8;
+}
+.window .header.menu-opened .burger-container #burger .bar2.btmBar {
+  background: #0000C8;
 }
 
 .window .header.menu-opened .icon.icon-bag {
