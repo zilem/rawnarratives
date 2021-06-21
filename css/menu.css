@@ -61,12 +61,12 @@ body {
   background: #FFFFFF;
 }
 .window .header .burger-container #burger .bar2.topBar {
-  -webkit-transform: translateY(0.5px);
-          transform: translateY(0.5px);
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
 }
 .window .header .burger-container #burger .bar2.btmBar {
-  -webkit-transform: translateY(6.5px);
-          transform: translateY(6.5px);
+  -webkit-transform: translateY(6px);
+          transform: translateY(6px);
 }
 
 .window .header .burger-container #burger .bar {
