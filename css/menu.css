@@ -233,12 +233,10 @@ body {
   background: #FFFFFF;
 }
 
-.window .header.menu-opened .burger-container #burger .bar2.topBar {
-  background: #0000C8;
+.window .header.menu-opened .burger-container #burger .bar2{
+  opacity: 0;
 }
-.window .header.menu-opened .burger-container #burger .bar2.btmBar {
-  background: #0000C8;
-}
+
 
 .window .header.menu-opened .icon.icon-bag {
   -webkit-transform: translateX(75px);
