@@ -53,12 +53,29 @@ body {
   margin: -18px auto 0;
   top: 50%;
 }
+.window .header .burger-container #burger .bar2 {
+  width: 100%;
+  height: 1.5px;
+  display: block;
+  position: relative;
+  background: #FFFFFF;
+  z-index: 9999;
+}
+.window .header .burger-container #burger .bar2.topBar {
+  -webkit-transform: translateY(0px) rotate(0deg);
+          transform: translateY(0px) rotate(0deg);
+}
+.window .header .burger-container #burger .bar2.btmBar {
+  -webkit-transform: translateY(6px) rotate(0deg);
+          transform: translateY(6px) rotate(0deg);
+}
+
 .window .header .burger-container #burger .bar {
   width: 100%;
   height: 1.5px;
   display: block;
   position: relative;
-  background: #FFFFFF; /*#c6c8ca;*/
+  background: #0000c8; /*#c6c8ca;*/
   transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
   transition-delay: 0s;
 }
@@ -70,22 +87,7 @@ body {
   -webkit-transform: translateY(6px) rotate(0deg);
           transform: translateY(6px) rotate(0deg);
 }
-.window .header .burger-container #burger .bar2 {
-  width: 100%;
-  height: 1.5px;
-  display: block;
-  position: relative;
-  background: #0000c8;
-  z-index: 9999;
-}
-.window .header .burger-container #burger .bar2.topBar {
-  -webkit-transform: translateY(0px) rotate(0deg);
-          transform: translateY(0px) rotate(0deg);
-}
-.window .header .burger-container #burger .bar2.btmBar {
-  -webkit-transform: translateY(6px) rotate(0deg);
-          transform: translateY(6px) rotate(0deg);
-}
+
 
 .window .header .icon {
   display: inline-block;
@@ -219,14 +221,17 @@ body {
 .window .header.menu-opened .burger-container #burger .bar {
   transition: all 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
   transition-delay: 0.2s;
+  background: #FFFFFF;
 }
 .window .header.menu-opened .burger-container #burger .bar.topBar {
   -webkit-transform: translateY(4px) rotate(45deg);
           transform: translateY(4px) rotate(45deg);
+  background: #FFFFFF;
 }
 .window .header.menu-opened .burger-container #burger .bar.btmBar {
   -webkit-transform: translateY(3px) rotate(-45deg);
           transform: translateY(3px) rotate(-45deg);
+  background: #FFFFFF;
 }
 
 .window .header.menu-opened .icon.icon-bag {
