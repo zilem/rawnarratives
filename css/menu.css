@@ -59,16 +59,14 @@ body {
   display: block;
   position: relative;
   background: #FFFFFF;
-  transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-  transition-delay: 0s;
 }
 .window .header .burger-container #burger .bar2.topBar {
-  -webkit-transform: translateY(1px) rotate(0deg);
-          transform: translateY(1px) rotate(0deg);
+  -webkit-transform: translateY(0.5px);
+          transform: translateY(0.5px);
 }
 .window .header .burger-container #burger .bar2.btmBar {
-  -webkit-transform: translateY(7px) rotate(0deg);
-          transform: translateY(7px) rotate(0deg);
+  -webkit-transform: translateY(6.5px);
+          transform: translateY(6.5px);
 }
 
 .window .header .burger-container #burger .bar {
