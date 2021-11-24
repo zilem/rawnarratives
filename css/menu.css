@@ -74,7 +74,7 @@ body {
   height: 1.5px;
   display: block;
   position: relative;
-  background: #0000C8; /*#c6c8ca;*/
+  background: #000000; /*#0000C8; #c6c8ca;*/
   transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
   transition-delay: 0s;
 }
@@ -206,7 +206,7 @@ body {
 }
 .window .header.menu-opened {
   height: 100%;
-  background-color: #474747; /*linear-gradient(#909090, #000000); #0000C8; #FFFFFF;*/
+  background-color: #555555; /*linear-gradient(#909090, #000000); #0000C8; #FFFFFF;*/
   /*background-image: url('../images/TheDeep-02.jpg');
   background-position: center;
   opacity: 1.0;*/
