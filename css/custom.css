@@ -384,7 +384,7 @@ tbody.collapse.in{display:table-row-group}
 }
 
 .landing {
-  background-image: url('../images/TheDeep-01black.jpg');
+  background-image: url('../images/TheDeep-01b.jpg'), radial-gradient(#e66465, #9198e5);
 }
 .rms {
   background-color: #fffff0;
