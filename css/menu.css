@@ -206,7 +206,7 @@ body {
 }
 .window .header.menu-opened {
   height: 100%;
-  background-color: linear-gradient(#909090, #000000); /*#0000C8; #FFFFFF;*/
+  background-color: #474747; /*linear-gradient(#909090, #000000); #0000C8; #FFFFFF;*/
   /*background-image: url('../images/TheDeep-02.jpg');
   background-position: center;
   opacity: 1.0;*/
