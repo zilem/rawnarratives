@@ -148,7 +148,7 @@ body {
 
 .window .header ul.menu li.menu-item {
   border-bottom: 1px solid #909090; /*#c0c0c0;*/
-  margin-top: 0px;
+  margin-top: 5px;
   -webkit-transform: scale(1.15) translateY(-30px);
           transform: scale(1.15) translateY(-30px);
   opacity: 0;
@@ -293,7 +293,7 @@ body {
 
 .window .content {
   font-family: 'Open Sans Condensed', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
-  padding: 67px 4% 0;
+  padding: 30px 4% 0;
   text-align: justify;
   overflow: scroll;
   max-height: 100%;
