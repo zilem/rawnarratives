@@ -33,7 +33,7 @@ body {
 .window .header .burger-container {
   position: relative;
   display: inline-block;
-  height: 75px;
+  height: 55px;
   width: 50px;
   cursor: pointer;
   -webkit-transform: rotate(0deg);
