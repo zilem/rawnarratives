@@ -3,31 +3,42 @@ function shareFunction(shareID) {
   box.classList.toggle("show");
 }
 
-// SHARING DOMAIN
-function waDShare(post_title,subdomain,pagepost) {
-  window.location = 'whatsapp://send?text=' + post_title + '%0A' + window.location.protocol + '//' + subdomain + window.location.hostname + pagepost;
+
+// SHARING CURRENT DOMAIN, PAGE HAS TO INCLUDE .HTML, POST HAS TO INCLUDE #
+function waShare(post_title, pagepost) {
+  var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
+  window.location = 'whatsapp://send?text=' + post_title + '%0A' + location.href.replace(location.hash,"") + pagepost;
 }
-function teDShare(post_title,subdomain) {
-  window.location = 'tg://msg_url?url=' + window.location.protocol + '//' + subdomain + window.location.hostname + '&text=' + post_title;
+function teShare(post_title, pagepost) {
+  var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
+  window.location = 'tg://msg_url?url=' + location.href.replace(location.hash,"")+ pagepost + '&text=' + post_title;
 }
-function twDShare(post_title,subdomain) {
-  window.open ('//twitter.com/intent/tweet?text=' + post_title + '%0A' + window.location.protocol + '//' + subdomain + window.location.hostname);
+function twShare(post_title, pagepost) {
+  var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
+  window.open ('//twitter.com/intent/tweet?text=' + post_title + '%0A' + location.href.replace(location.hash,"") + pagepost);
 }
-function fbDShare(post_title,subdomain) {
-  window.open ('//facebook.com/sharer/sharer.php?quote=' + post_title + '&u=' + window.location.protocol + '//' + subdomain + window.location.hostname);
+function fbShare(post_title, pagepost) {
+  var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
+  window.open ('//facebook.com/sharer/sharer.php?quote=' + post_title + '&u=' + location.href.replace(location.hash,"") + pagepost);
 }
-function emDShare(post_title,subdomain) {
-  window.open ('mailto:?subject=' + post_title + '&body=Check this out: %0A%0A' + window.location.protocol + '//' +  subdomain + window.location.hostname + "%0A%0A" + 'by Zi R. Lem, Screenwriter-Filmmaker');
+function emShare(post_title, pagepost) {
+  var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
+  window.open ('mailto:?subject=' + post_title + '&body=Check this out: %0A%0A' + location.href.replace(location.hash,"") + pagepost + "%0A%0A" + document.getElementsByTagName("meta")[5].content + "%0A%0A" + byname);
 }
-function liDShare(post_title,subdomain) {
-  window.open ('//linkedin.com/shareArticle?mini=true&url=' + post_title + '%0A' + window.location.protocol + '//' + subdomain + window.location.hostname);
+function liShare(post_title, pagepost) {
+  var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
+  window.open ('//linkedin.com/shareArticle?mini=true&url=' + post_title + '%0A' + location.href.replace(location.hash,"") + pagepost);
 }
-//function mDShare(subdomain,post_title) {
-//  window.open ('fb-messenger://share?link=' + post_title + '%0A' + window.location.protocol + '//' + subdomain + window.location.hostname);
+//function mShare(post_title, pagepost) {
+//  var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
+//  window.open ('fb-messenger://share?link=' + post_title + '%0A' + location.href.replace(location.hash,"") + pagepost);
 //}
-//function gDShare(subdomain,post_title) {
-//  window.open ('//plus.google.com/share?url=' + post_title + '%0A' + window.location.protocol + '//' + subdomain + window.location.hostname);
+//function gShare(post_title, pagepost) {
+//  var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
+//  window.open ('//plus.google.com/share?url=' + post_title + '%0A' + location.href.replace(location.hash,"") + pagepost);
 //}
+
+
 
 
 // SHARING PAGE
@@ -58,39 +69,7 @@ function liHShare(post_title) {
 
 
 
-// SHARING POST
-function waShare(post_title, pagepost) {
-  var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
-  window.location = 'whatsapp://send?text=' + post_title + '%0A' + location.href.replace(location.hash,"") + pagepost;
-}
-function teShare(post_title, pagepost) {
-  var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
-  window.location = 'tg://msg_url?url=' + location.href.replace(location.hash,"")+ pagepost + '&text=' + post_title;
-}
-function twShare(post_title, pagepost) {
-  var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
-  window.open ('//twitter.com/intent/tweet?text=' + post_title + '%0A' + location.href.replace(location.hash,"") + pagepost);
-}
-function fbShare(post_title, pagepost) {
-  var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
-  window.open ('//facebook.com/sharer/sharer.php?quote=' + post_title + '&u=' + location.href.replace(location.hash,"") + pagepost);
-}
-function emShare(post_title, pagepost) {
-  var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
-  window.open ('mailto:?subject=' + post_title + '&body=Check this out: %0A%0A' + location.href.replace(location.hash,"") + pagepost + "%0A%0A" + document.getElementsByTagName("meta")[5].content + "%0A%0A" + byname);
-}
-function liShare(post_title, pagepost) {
-  var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
-  window.open ('//linkedin.com/shareArticle?mini=true&url=' + post_title + '%0A' + location.href.replace(location.hash,"") + pagepost);
-}
-//function mShare(post,post_title) {
-//  var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
-//  window.open ('fb-messenger://share?link=' + post_title + '%0A' + location.href.replace(location.hash,"") + '%23' + post);
-//}
-//function gShare(post,post_title) {
-//  var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
-//  window.open ('//plus.google.com/share?url=' + post_title + '%0A' + location.href.replace(location.hash,"") + '%23' + post);
-//}
+
 
 
 
