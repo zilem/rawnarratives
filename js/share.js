@@ -4,22 +4,22 @@ function shareFunction(shareID) {
 }
 
 // SHARING DOMAIN
-function waDShare(post_title,subdomain) {
-  window.location = 'whatsapp://send?text=' + post_title + '%0A' + window.location.protocol + '//' + subdomain + window.location.hostname;
+function waDShare(post_title,subdomain,pagepost) {
+  window.location = 'whatsapp://send?text=' + post_title + '%0A' + window.location.protocol + '//' + subdomain + window.location.hostname + pagepost;
 }
-function teDShare(subdomain,post_title) {
+function teDShare(post_title,subdomain) {
   window.location = 'tg://msg_url?url=' + window.location.protocol + '//' + subdomain + window.location.hostname + '&text=' + post_title;
 }
-function twDShare(subdomain,post_title) {
+function twDShare(post_title,subdomain) {
   window.open ('//twitter.com/intent/tweet?text=' + post_title + '%0A' + window.location.protocol + '//' + subdomain + window.location.hostname);
 }
-function fbDShare(subdomain,post_title) {
+function fbDShare(post_title,subdomain) {
   window.open ('//facebook.com/sharer/sharer.php?quote=' + post_title + '&u=' + window.location.protocol + '//' + subdomain + window.location.hostname);
 }
-function emDShare(subdomain,post_title) {
+function emDShare(post_title,subdomain) {
   window.open ('mailto:?subject=' + post_title + '&body=Check this out: %0A%0A' + window.location.protocol + '//' +  subdomain + window.location.hostname + "%0A%0A" + 'by Zi R. Lem, Screenwriter-Filmmaker');
 }
-function liDShare(subdomain,post_title) {
+function liDShare(post_title,subdomain) {
   window.open ('//linkedin.com/shareArticle?mini=true&url=' + post_title + '%0A' + window.location.protocol + '//' + subdomain + window.location.hostname);
 }
 //function mDShare(subdomain,post_title) {
@@ -59,9 +59,9 @@ function liHShare(post_title) {
 
 
 // SHARING POST
-function waShare(post,post_title) {
+function waShare(post_title, pagepost) {
   var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
-  window.location = 'whatsapp://send?text=' + post_title + '%0A' + location.href.replace(location.hash,"") + '%23' + post;
+  window.location = 'whatsapp://send?text=' + post_title + '%0A' + location.href.replace(location.hash,"") + pagepost;
 }
 function teShare(post,post_title) {
   var byname = '%0Aby Zi R. Lem, Screenwriter-Filmmaker%0A';
